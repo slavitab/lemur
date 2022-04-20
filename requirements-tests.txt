@@ -80,7 +80,7 @@ faker==13.3.4
     #   factory-boy
 fakeredis==1.7.1
     # via -r requirements-tests.in
-flask==1.1.2
+flask==2.1.1
     # via
     #   -r requirements-tests.in
     #   flask-migrate
