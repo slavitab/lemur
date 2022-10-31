@@ -74,6 +74,8 @@ ecdsa==0.17.0
     #   moto
     #   python-jose
     #   sshpubkeys
+exceptiongroup==1.0.0
+    # via pytest
 factory-boy==3.2.1
     # via -r requirements-tests.in
 faker==13.15.1
@@ -179,8 +181,6 @@ platformdirs==2.5.1
     # via black
 pluggy==1.0.0
     # via pytest
-py==1.11.0
-    # via pytest
 pyasn1==0.4.8
     # via
     #   python-jose
@@ -201,7 +201,7 @@ pyrfc3339==1.1
     #   certbot
 pyrsistent==0.18.1
     # via jsonschema
-pytest==7.1.2
+pytest==7.2.0
     # via
     #   -r requirements-tests.in
     #   pytest-flask
