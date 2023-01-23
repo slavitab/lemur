@@ -370,10 +370,6 @@ pluggy==1.0.0
     #   pytest
 prompt-toolkit==3.0.28
     # via click-repl
-py==1.11.0
-    # via
-    #   -r requirements-tests.txt
-    #   pytest
 pyasn1==0.4.8
     # via
     #   -r requirements-tests.txt
@@ -418,7 +414,7 @@ pyrsistent==0.18.1
     # via
     #   -r requirements-tests.txt
     #   jsonschema
-pytest==7.1.2
+pytest==7.2.1
     # via
     #   -r requirements-tests.txt
     #   pytest-flask
@@ -575,11 +571,6 @@ stevedore==3.5.0
     #   bandit
 tabulate==0.8.10
     # via -r requirements-docs.in
-tomli==2.0.1
-    # via
-    #   -r requirements-tests.txt
-    #   black
-    #   pytest
 twofish==0.3.0
     # via pyjks
 urllib3==1.26.9
